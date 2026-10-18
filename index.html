@@ -9,6 +9,8 @@
   h1{font-size:28px;margin-bottom:4px}
   .sub{color:#666;margin-top:0;margin-bottom:24px}
   h2{font-size:19px;margin-top:32px}
+  h3{font-size:16px;margin-top:20px;margin-bottom:4px}
+  ol{padding-left:20px}
   a{color:#2f6fed}
   ul{padding-left:20px}
   .lang-switch{display:flex;gap:8px;margin-bottom:24px}
@@ -42,6 +44,27 @@
       <li>Режим «Телефон родителя»: смотрите статус ребёнка и меняйте режим, расписание, строгий режим и радиус геозоны удалённо через iCloud (выбор самих приложений остаётся на устройстве ребёнка)</li>
     </ul>
 
+    <h2>Частые вопросы</h2>
+
+    <h3>Геолокации нет в настройках KidsFence, а в приложении «ЗАБЛОКИРОВАНО СИСТЕМОЙ»</h3>
+    <p>Так бывает, если на устройстве ребёнка в Экранном времени запрещено менять геолокацию. Тогда iOS не даёт новым приложениям даже спросить доступ, и пункта «Геолокация» в настройках KidsFence нет.</p>
+    <ol>
+      <li>На телефоне родителя: Настройки → Экранное время → имя ребёнка → Контент и конфиденциальность → Службы геолокации → «Разрешить изменения». Если ограничения настроены прямо на устройстве ребёнка, то же самое там.</li>
+      <li>На устройстве ребёнка откройте KidsFence и в строке «Геолокация «Всегда»» нажмите «Запросить разрешение». Выберите «При использовании», затем согласитесь на «Всегда». Если iOS не предложит: Настройки → Конфиденциальность и безопасность → Службы геолокации → KidsFence → «Всегда».</li>
+      <li>Верните «Не разрешать изменения». Выданное разрешение сохранится, а ребёнок не сможет его выключить.</li>
+    </ol>
+
+    <h3>На устройстве ребёнка iOS предлагает сохранить пароль Apple ID родителя</h3>
+    <p>Окно входа при подтверждении Экранного времени показывает сама iOS, и она же предлагает сохранить пароль. Нажмите «Не сейчас»: иначе пароль родителя останется на устройстве ребёнка. KidsFence ваш пароль не видит и не хранит. Если пароль уже сохранён, удалите его в приложении «Пароли» на устройстве ребёнка.</p>
+
+    <h3>Как удалить KidsFence с устройства ребёнка</h3>
+    <p>Пока защита включена, удалить приложения на устройстве ребёнка нельзя, включая KidsFence. Так ребёнок не снимет ограничения, просто удалив приложение.</p>
+    <ol>
+      <li>На устройстве ребёнка откройте KidsFence и войдите с PIN родителя.</li>
+      <li>Нажмите «Отключить защиту и удалить приложение» и подтвердите.</li>
+      <li>Удалите KidsFence как обычно: удерживайте иконку → «Удалить приложение».</li>
+    </ol>
+
     <h2>Политика конфиденциальности</h2>
     <p><a href="privacy.html">Читать политику конфиденциальности</a></p>
   </div>
@@ -63,6 +86,27 @@
       <li>"Parent's phone" mode: see the child's status and change the mode, schedule, strict mode and geofence radius remotely via iCloud (choosing the apps themselves stays on the child's device)</li>
     </ul>
 
+    <h2>FAQ</h2>
+
+    <h3>Location is missing from KidsFence settings, and the app says “BLOCKED BY SYSTEM”</h3>
+    <p>This happens when Screen Time on the child's device doesn't allow location changes. iOS then won't let new apps even ask for access, so there is no “Location” item in KidsFence settings.</p>
+    <ol>
+      <li>On the parent's phone: Settings → Screen Time → your child's name → Content &amp; Privacy Restrictions → Location Services → “Allow Changes”. If restrictions are set on the child's device itself, do the same there.</li>
+      <li>On the child's device, open KidsFence and tap “Request permission” next to “Location “Always””. Choose “While Using the App”, then accept “Always”. If iOS doesn't offer it: Settings → Privacy &amp; Security → Location Services → KidsFence → “Always”.</li>
+      <li>Switch back to “Don't Allow Changes”. The permission stays, and the child can't turn it off.</li>
+    </ol>
+
+    <h3>The child's device offers to save the parent's Apple ID password</h3>
+    <p>The sign-in sheet for Screen Time approval belongs to iOS, and iOS offers to save the password. Tap “Not Now”, otherwise the parent's password stays on the child's device. KidsFence never sees or stores your password. If it was already saved, delete it in the Passwords app on the child's device.</p>
+
+    <h3>How to delete KidsFence from the child's device</h3>
+    <p>While protection is on, apps on the child's device can't be deleted, KidsFence included. This way the child can't remove the restrictions just by deleting the app.</p>
+    <ol>
+      <li>On the child's device, open KidsFence and enter the parent PIN.</li>
+      <li>Tap “Turn off protection and remove app” and confirm.</li>
+      <li>Delete KidsFence as usual: touch and hold the icon → “Remove App”.</li>
+    </ol>
+
     <h2>Privacy Policy</h2>
     <p><a href="privacy.html">Read the Privacy Policy</a></p>
   </div>
@@ -83,6 +127,27 @@
       <li>Wymaga, aby dziecko było w Twojej grupie Family Sharing — rodzic potwierdza dostęp do Czasu Ekranowego swoim Apple ID</li>
       <li>Tryb „Telefon rodzica”: sprawdzaj status dziecka i zmieniaj tryb, harmonogram, tryb ścisły i promień strefy zdalnie przez iCloud (wybór samych aplikacji pozostaje na urządzeniu dziecka)</li>
     </ul>
+
+    <h2>Częste pytania</h2>
+
+    <h3>W ustawieniach KidsFence nie ma lokalizacji, a aplikacja pokazuje „BLOCKED BY SYSTEM”</h3>
+    <p>Tak się dzieje, gdy Czas przed ekranem na urządzeniu dziecka nie pozwala zmieniać lokalizacji. iOS nie pozwala wtedy nowym aplikacjom nawet zapytać o dostęp, więc w ustawieniach KidsFence brak pozycji „Lokalizacja”.</p>
+    <ol>
+      <li>Na telefonie rodzica: Ustawienia → Czas przed ekranem → imię dziecka → Ograniczenia treści i prywatności → Usługi lokalizacji → „Pozwalaj na zmiany”. Jeśli ograniczenia ustawiono na urządzeniu dziecka, zrób to samo tam.</li>
+      <li>Na urządzeniu dziecka otwórz KidsFence i przy „Location “Always”” stuknij „Request permission”. Wybierz „Podczas używania aplikacji”, a potem zgódź się na „Zawsze”. Jeśli iOS tego nie zaproponuje: Ustawienia → Prywatność i ochrona → Usługi lokalizacji → KidsFence → „Zawsze”.</li>
+      <li>Przywróć „Nie pozwalaj na zmiany”. Uprawnienie zostanie, a dziecko nie będzie mogło go wyłączyć.</li>
+    </ol>
+
+    <h3>Urządzenie dziecka proponuje zapisać hasło Apple ID rodzica</h3>
+    <p>Okno logowania przy zatwierdzaniu Czasu przed ekranem pokazuje sam iOS i to on proponuje zapisanie hasła. Stuknij „Nie teraz”, inaczej hasło rodzica zostanie na urządzeniu dziecka. KidsFence nie widzi i nie przechowuje Twojego hasła. Jeśli hasło zostało już zapisane, usuń je w aplikacji Hasła na urządzeniu dziecka.</p>
+
+    <h3>Jak usunąć KidsFence z urządzenia dziecka</h3>
+    <p>Dopóki ochrona jest włączona, na urządzeniu dziecka nie da się usuwać aplikacji, w tym KidsFence. Dzięki temu dziecko nie zdejmie ograniczeń, po prostu usuwając aplikację.</p>
+    <ol>
+      <li>Na urządzeniu dziecka otwórz KidsFence i wpisz PIN rodzica.</li>
+      <li>Stuknij „Turn off protection and remove app” i potwierdź.</li>
+      <li>Usuń KidsFence jak zwykle: przytrzymaj ikonę → „Usuń aplikację”.</li>
+    </ol>
 
     <h2>Polityka prywatności</h2>
     <p><a href="privacy.html">Przeczytaj politykę prywatności</a></p>
